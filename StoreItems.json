@@ -74,31 +74,31 @@
 	},
 	{
 		"abr": "aominiceilingsunlamp",
-		"price": 49,
+		"price": 100,
 		"category": "Furniture",
 		"defname": "AO_MiniCeilSunLamp"
 	},
 	{
 		"abr": "aominisunlamp",
-		"price": 49,
+		"price": 100,
 		"category": "Furniture",
 		"defname": "AO_MiniSunLamp"
 	},
 	{
 		"abr": "aosmallceilingsunlamp",
-		"price": 81,
+		"price": 100,
 		"category": "Furniture",
 		"defname": "AO_SmallCeilSunLamp"
 	},
 	{
 		"abr": "aosmallsunlamp",
-		"price": 81,
+		"price": 200,
 		"category": "Furniture",
 		"defname": "AO_SmallSunLamp"
 	},
 	{
 		"abr": "aosunlamp",
-		"price": 129,
+		"price": 200,
 		"category": "Furniture",
 		"defname": "AO_SunLamp"
 	},
