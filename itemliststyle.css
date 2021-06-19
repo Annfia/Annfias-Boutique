@@ -11,7 +11,7 @@ body {
 div.jumbotron div.container p,
 div.jumbotron div.container h1 {
     color: #F8B6C0;
-    text-shadow: 1px 1px 3px #191829;
+    text-shadow: 1px 1px 3px #F8B6C0;
 }
 
 div.form-group {
