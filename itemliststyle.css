@@ -3,14 +3,14 @@ body {
 }
 
 .jumbotron {
-    background-image: https://github.com/Annfia/Annfias-Boutique("valentine.jpg");
+    background-image: url("valentine.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 div.jumbotron div.container p,
 div.jumbotron div.container h1 {
-    color: #FFFDEB;
+    color: #F8B6C0;
     text-shadow: 1px 1px 3px #191829;
 }
 
