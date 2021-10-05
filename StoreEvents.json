@@ -6,11 +6,6 @@
 		"karmatype": "Bad"
 	},
 	{
-		"abr": "tornados",
-		"price": 2600,
-		"karmatype": "Bad"
-	},
-	{
 		"abr": "clearweather",
 		"price": 400,
 		"karmatype": "Good"
@@ -207,7 +202,7 @@
 	},
 	{
 		"abr": "militaryaid",
-		"price": 700,
+		"price": 1000,
 		"karmatype": "Good"
 	},
 	{
@@ -217,22 +212,22 @@
 	},
 	{
 		"abr": "dropraid",
-		"price": 1500,
+		"price": 5500,
 		"karmatype": "Bad"
 	},
 	{
 		"abr": "sapperraid",
-		"price": 1500,
+		"price": 5500,
 		"karmatype": "Bad"
 	},
 	{
 		"abr": "siegeraid",
-		"price": 2500,
+		"price": 5500,
 		"karmatype": "Bad"
 	},
 	{
 		"abr": "infestation",
-		"price": 2500,
+		"price": 5500,
 		"karmatype": "Bad"
 	},
 	{
@@ -256,13 +251,8 @@
 		"karmatype": "Bad"
 	},
 	{
-		"abr": "reviveanypawn",
-		"price": 1200,
-		"karmatype": "Good"
-	},
-	{
 		"abr": "pawn",
-		"price": 1,
+		"price": 2500,
 		"karmatype": "Good"
 	},
 	{
@@ -302,12 +292,12 @@
 	},
 	{
 		"abr": "torytalkervote",
-		"price": 750,
+		"price": 1050,
 		"karmatype": "Neutral"
 	},
 	{
 		"abr": "hodlbotvote",
-		"price": 600,
+		"price": 1000,
 		"karmatype": "Neutral"
 	},
 	{
@@ -415,11 +405,6 @@
 		"price": 2500,
 		"karmatype": "Doom"
 	},
-	{
-		"abr": "sanctuary",
-		"price": 100000,
-		"karmatype": "Good"
-	}
 	],
 	"total": 84
 }
