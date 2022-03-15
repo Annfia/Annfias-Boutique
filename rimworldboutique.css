@@ -4,30 +4,25 @@ body {
 }
 
 .jumbotron {
-    background-image: url("rimworldplanet.jpg");
+    background-image: url("falloutsun.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 0;
+    margin-bottom: 1rem;
 }
 
-div.jumbotron div.container p,
-div.jumbotron div.container h1 {
-    color: #FFFDEB;
-    text-shadow: 1px 1px 3px #191829;
-}
 
 div.form-group {
     margin-top: 16px;
 }
 
 .btn-success {
-    background-color: #343a40;
+    background-color: #fbf195;
     border: 0px;
     box-shadow: 0 0 0 0 #FFFDEB;
 }
 
 .btn-success:hover {
-    background-color: #343a40;
+    background-color: 	#826537;
 }
 
 .btn-success:not(:disabled):not(.disabled).active,
