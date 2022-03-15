@@ -3,14 +3,6 @@ body {
     line-height: 1;
 }
 
-.jumbotron {
-    background-image: url("falloutsun.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 1rem;
-}
-
-
 div.form-group {
     margin-top: 16px;
 }
