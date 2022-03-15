@@ -4,10 +4,10 @@ body {
 }
 
 .jumbotron {
-    background-image: url("falloutsun.jpg");
+    background-image: url("rimworldplanet.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 1rem;
+    margin-bottom: 0;
 }
 
 div.jumbotron div.container p,
