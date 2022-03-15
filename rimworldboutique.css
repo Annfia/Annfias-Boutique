@@ -21,7 +21,7 @@ div.form-group {
 .btn-success:not(:disabled):not(.disabled).active,
 .btn-success:not(:disabled):not(.disabled):active,
 .show>.btn-success.dropdown-toggle {
-    background-color: #49525a;
+    background-color: #889483;
     box-shadow: 0 0 0 0 #FFFDEB;
     border: 0px;
 }
@@ -29,7 +29,7 @@ div.form-group {
 .btn-success:not(:disabled):not(.disabled).active:focus,
 .btn-success:not(:disabled):not(.disabled):active:focus,
 .show>.btn-success.dropdown-toggle:focus {
-    background-color: #49525a;
+    background-color: #889483;
     box-shadow: 0 0 0 0 #FFFDEB;
     border: 0px;
 }
