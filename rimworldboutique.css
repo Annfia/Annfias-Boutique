@@ -1,5 +1,5 @@
 body {
-    background-color: #14202c;
+    background-color: #524039;
     line-height: 1;
 }
 
@@ -35,16 +35,16 @@ div.form-group {
 }
 
 .ng-scope {
-    background-color: #8e95af;
+    background-color: #5c825e;
 }
 
 .list {
-    background-color: #5c9675;
+    background-color: #c2d4ba;
     vertical-align: middle;
 }
 
 .list>tr:nth-child(odd) {
-    background-color: #5c9675;
+    background-color: #c2d4ba;
 }
 
 ​    .sort:after {
