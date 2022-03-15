@@ -43,11 +43,49 @@
                 <h1 class="display-3">TwitchToolkit</h1>
                 <p>TwitchToolkit is a mod written by Twitch.tv/hodlhodl that integrates storytelling decisions into chat
                 votes, awards viewers coins for watching, and those coins can be spent on items/events in game.</p>
-                    <button type="button" data-bs-toggle="collapse" data-bs-target="#list1" aria-expanded="true" aria-controls="list1">Toolkit Commands</button>
-                    
+                    <button type="button" data-bs-toggle="collapse" data-bs-target="#list1" aria-expanded="false" aria-controls="list1">Toolkit Commands</button>
                     <div id="topGroup">
-                    <div id="list1" class="collapse show" data-bs-parent="#topGroup" style="">
-                        <ul class="list-group"><li class="list-group-item"><b>!bal</b> - Shows your current balance, karma, and optionally, the amount of coins earned per cycle.</li><li class="list-group-item"><b>!purchaselist</b></li><li class="list-group-item"><b>!giftcoins <viewer> <amount></amount></viewer></b> - Gives a viewer some of your coins.</li><li class="list-group-item"><b>!joinqueue</b></li><li class="list-group-item"><b>!buy</b></li><li class="list-group-item"><b>!levelskill <skill> <coins></coins></skill></b> - Lets you wager coins to level up a skill of your choosing.</li><li class="list-group-item"><b>!modsettings</b></li><li class="list-group-item"><b>!allcommands</b></li><li class="list-group-item"><b>!installedmods</b> - Shows you the complete list of installed mods.</li><li class="list-group-item"><b>!setfavoritecolor <color></color></b> - Sets the user's pawn's favorite color to the color specified. The color can be a name or a hexcode.</li><li class="list-group-item"><b>!setfavouritecolour <color></color></b> - Sets the user's pawn's favourite colour to the colour specified. The colour can be a name or a hex code.</li><li class="list-group-item"><b>!reviveall</b></li><li class="list-group-item"><b>!reviveme</b></li><li class="list-group-item"><b>!healme</b></li><li class="list-group-item"><b>!healall</b></li><li class="list-group-item"><b>!passionshuffle [skill]</b> - Shuffles your passions. If a skill is specified, you'll be guaranteed a minor passion in it.</li><li class="list-group-item"><b>!surgery <item> <quantity bodypart=""></quantity></item></b> - Purchases the part specified and queues it for surgery on your pawn.</li><li class="list-group-item"><b>!trait</b></li><li class="list-group-item"><b>!removetrait</b></li><li class="list-group-item"><b>!reviveanypawn</b></li><li class="list-group-item"><b>!healanypawn</b></li><li class="list-group-item"><b>!replacetrait <old> <new></new></old></b> - Replaces a trait with a different trait.</li><li class="list-group-item"><b>!backpack <item> [quantity]</item></b> - It's like buy item, but it gets added to your inventory if possible.</li><li class="list-group-item"><b>!removepassion <skill></skill></b> - Downgrades a skill's passion... sometimes.</li><li class="list-group-item"><b>!passion <skill></skill></b> - Upgrades a skill's passion... sometimes.</li><li class="list-group-item"><b>!fullheal</b></li><li class="list-group-item"><b>!rescueme</b></li><li class="list-group-item"><b>!mypawnkills</b></li><li class="list-group-item"><b>!mypawnstats [stat1] [stat2]</b> - Shows your current stats within a given category.</li><li class="list-group-item"><b>!mypawnhealth [capacity]</b> - Shows an overview of your pawn's health. If a capacity is specified, it'll show what's affecting it.</li><li class="list-group-item"><b>!mypawnneeds</b></li><li class="list-group-item"><b>!mypawngear</b> - Shows an overview of your pawn's gear.</li><li class="list-group-item"><b>!mypawnbody</b></li><li class="list-group-item"><b>!mypawnstory</b></li><li class="list-group-item"><b>!mypawnskills</b></li><li class="list-group-item"><b>!fixmypawn</b></li><li class="list-group-item"><b>!leave</b> - Makes your pawn leave the colony.</li><li class="list-group-item"><b>!mypawnrelations [viewer]</b> - Shows your pawn's relationships to other viewers.</li><li class="list-group-item"><b>!factions</b></li><li class="list-group-item"><b>!research [project/item]</b> - Shows the current research progress. If a project is specified, it'll show the progress of that instead.</li><li class="list-group-item"><b>!lookup <item category=""> [query]</item></b> - Shows the first few results for the query in the given category. Valid categories are: 'pawns', 'traits', 'items', 'events', 'diseases', 'animals', and 'skills'.</li><li class="list-group-item"><b>!price <item category=""> [query]</item></b> - Similar to the lookup command, except it'll show the price for the first valid match.</li><li class="list-group-item"><b>!insult [target]</b> - Makes your pawn insult a random viewer. If a viewer is specified, you'll insult them instead.</li><li class="list-group-item"><b>!wealth</b></li><li class="list-group-item"><b>!colonists</b></li><li class="list-group-item"><b>!rwdata <category weaponname=""> [weaponname]</category></b> - Provides some information about supported things. Supported categories are: 'weapons'</li><li class="list-group-item"><b>!imstuck</b></li><li class="list-group-item"><b>!joinraid</b></li></ul>
+    <div id="list1" class="collapse" data-bs-parent="#topGroup" style="">
+                        
+                        
+                        <ul class="list-group">
+    
+    
+    
+    
+    
+    
+<li class="list-group-item"><b>!bal</b> - check balance and karma rate</li>
+                    <li class="list-group-item"><b>!buy</b>- Syntax: !buy beer 6 - purchase an item or event</li>
+	            <li class="list-group-item">!price <item> [quantity] - Syntax: Price Check </li>
+                    <li class="list-group-item">!whatiskarma - explains what the karma system is</li>
+                    <li class="list-group-item">!buylist - gives users a link to the public purchase list</li>
+                    <li class="list-group-item">!instructions - gives users info on using the mod</li>
+                    <li class="list-group-item">!modinfo - gives users info about the mod</li>
+                    <li class="list-group-item">!installedmods - Full list of installed active mods in game.</li>
+                    <li class="list-group-item">!modsettings - gives user info on how many coins are being earned and global settings</li>
+		    <li class="list-group-item">!colonists - Colinist Count</li> 
+		    <li class="list-group-item">!wealth - Colony Wealth</li> 
+                    <li class="list-group-item">!giftcoins - Syntax: !giftcoins @username 100 - give another viewer your coins</li>   
+                    <li class="list-group-item">!mypawnstory - view information about your pawns backstory</li>
+                    <li class="list-group-item">!mypawnskills - view information about your pawns skills</li>
+                    <li class="list-group-item">!mypawngear - Shows an overview of your pawn's gear.</li>  
+		    <li class="list-group-item">!mypawnbody - Shows an overview of your pawn's body.</li>
+                    <li class="list-group-item">!mypawnkills - Viewer kill count</li>   
+	            <li class="list-group-item">!levelskill [skill] [coins] - Lets you wager coins to level up a skill of your choosing.</li>
+		    <li class="list-group-item">!passionshuffle [skill] - Shuffles your passions. If a skill is specified, you'll be guaranteed a minor passion in it.</li> 
+		    <li class="list-group-item">!surgery [item] [quantity/bodypart] - Purchases the part specified and queues it for surgery on your pawn. </li>
+	            <li class="list-group-item">!trait [trait] - Replace <trait> with desired trait to add. Up to 4 traits total.</li> 
+		    <li class="list-group-item">!removetrait [trait] - Replace <trait> with desired trait to remove. Up to 4 traits total.</li>
+                    <li class="list-group-item">!replacetrait [old] [new] - Replaces a trait with a different trait.</li>  
+		    <li class="list-group-item">!passion [skill] - Upgrades a skill's passion... sometimes.</li> 	
+                    <li class="list-group-item">!lookup [item/category] [query] - Shows the first few results for the query in the given category. Valid categories are: 'pawns', 'traits', 'items', 'events', 'diseases', 'animals', and 'skills'."</li>
+	            
+    
+    
+    
+    
+    </ul>
                     </div>
                 </div>
             </div>
@@ -288,4 +326,5 @@
         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
       
 </html>
+
 
