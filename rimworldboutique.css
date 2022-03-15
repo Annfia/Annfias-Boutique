@@ -3,12 +3,13 @@ body {
     line-height: 1;
 }
 
+
 div.form-group {
     margin-top: 16px;
 }
 
 .btn-success {
-    background-color: #fbf195;
+    background-color: #aab9a4;
     border: 0px;
     box-shadow: 0 0 0 0 #FFFDEB;
 }
@@ -38,12 +39,12 @@ div.form-group {
 }
 
 .list {
-    background-color: #99a0bb;
+    background-color: #5c9675;
     vertical-align: middle;
 }
 
 .list>tr:nth-child(odd) {
-    background-color: #a3abc7;
+    background-color: #5c9675;
 }
 
 ​    .sort:after {
@@ -110,8 +111,6 @@ vertical-align: middle;
     text-align: center;
     border-radius: 6px;
     padding: 5px 0;
-  
-    /* Position the tooltip */
     position: absolute;
     z-index: 1;
   }
