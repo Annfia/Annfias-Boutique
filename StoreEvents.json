@@ -176,11 +176,6 @@
 		"karmatype": "Good"
 	},
 	{
-		"abr": "skillincrease",
-		"price": 200,
-		"karmatype": "Good"
-	},
-	{
 		"abr": "party",
 		"price": 400,
 		"karmatype": "Good"
@@ -203,16 +198,6 @@
 	{
 		"abr": "dropraid",
 		"price": 1500,
-		"karmatype": "Bad"
-	},
-	{
-		"abr": "sapperraid",
-		"price": 1500,
-		"karmatype": "Bad"
-	},
-	{
-		"abr": "infestation",
-		"price": 2500,
 		"karmatype": "Bad"
 	},
 	{
@@ -274,16 +259,6 @@
 		"abr": "randominspire",
 		"price": 450,
 		"karmatype": "Good"
-	},
-	{
-		"abr": "torytalkervote",
-		"price": 750,
-		"karmatype": "Neutral"
-	},
-	{
-		"abr": "hodlbotvote",
-		"price": 600,
-		"karmatype": "Neutral"
 	},
 	{
 		"abr": "reviveme",
@@ -365,16 +340,6 @@
 		"price": 3000,
 		"karmatype": "Neutral"
 	},
-	{
-		"abr": "smite",
-		"price": 2500,
-		"karmatype": "Doom"
-	},
-	{
-		"abr": "sanctuary",
-		"price": 100000,
-		"karmatype": "Good"
-	}
 	],
-	"total": 75
+	"total": 68
 }
